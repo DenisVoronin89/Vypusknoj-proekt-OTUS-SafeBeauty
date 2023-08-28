@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Search Results
+{% endblock %}
+
+{% block content %}
+    <h2>Search Results</h2>
+    <ul class="list-group">
+        {% for ingredient in ingredients %}
+            <li class="list-group-item list-group-item-light">
+                <a href="{% url 'ingredient_detail' ingredient.pk %}">{{ ingredient.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

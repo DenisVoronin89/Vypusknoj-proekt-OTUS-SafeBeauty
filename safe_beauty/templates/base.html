@@ -33,13 +33,19 @@
                     </li>
                 </ul>
                 <!-- New search form -->
-                <form class="d-flex">
-                    <input class="form-control me-2 search-login-btn" name="search" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success search-login-btn" type="submit">Search</button>
-                </form>
+                    <form class="d-flex" action="{% url 'ingredient_search' %}">
+                        <input class="form-control me-2 search-login-btn" name="search" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success search-login-btn" type="submit">Search</button>
+                    </form>
                 <!-- End of search form -->
 
             </div>
+            {% if not user.is_authenticated %}
+                <li><a href="{% url 'login' %}">Login</a></li>
+                <li><a href="{% url 'register' %}">Register</a></li>
+            {% else %}
+                <li><a href="{% url 'user_profile' %}">Profile</a></li>
+            {% endif %}
         </div>
     </nav>
 

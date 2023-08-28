@@ -1,0 +1,7 @@
+safe_beauty/safe_beauty/__pycache__
+safe_beauty/userapp/__pycache__
+safe_beauty/mainapp/__pycache__
+safe_beauty/userapp/migrations/__pycache__
+*.sqlite3
+.DS_Store
+safe_beauty/mainapp/migrations/__pycache__

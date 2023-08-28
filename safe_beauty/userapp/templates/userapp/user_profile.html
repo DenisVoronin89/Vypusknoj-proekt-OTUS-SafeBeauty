@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Profile
+{% endblock %}
+
+{% block content %}
+    <h2>User Profile</h2>
+    <p>Welcome, {{ user.username }}!</p>
+
+    <h3>Viewing History</h3>
+    <ul>
+        {% for history_item in viewing_history %}
+            <li>{{ history_item.viewed_item }} ({{ history_item.timestamp }})</li>
+        {% endfor %}
+    </ul>
+
+    <form method="post" action="{% url 'logout' %}">
+        {% csrf_token %}
+        <button type="submit">Logout</button>
+    </form>
+{% endblock %}
