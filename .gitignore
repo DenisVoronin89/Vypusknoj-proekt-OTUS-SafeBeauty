@@ -5,3 +5,4 @@ safe_beauty/userapp/migrations/__pycache__
 *.sqlite3
 .DS_Store
 safe_beauty/mainapp/migrations/__pycache__
+.idea/inspectionProfiles
