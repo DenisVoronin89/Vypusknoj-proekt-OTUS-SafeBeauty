@@ -16,7 +16,7 @@
 
 Как запустить проект:
 
-cd safebeauty
+cd safe_beauty
 python manage.py runserver
 
 
@@ -38,6 +38,6 @@ or other harm to health.
 
 How lo launch project
 
-cd safebeauty
+cd safe_beauty
 python manage.py runserver
 
