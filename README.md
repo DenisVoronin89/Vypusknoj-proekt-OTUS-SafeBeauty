@@ -13,6 +13,9 @@
 - выполнены и применены миграции
 - объявлена фукнкция index_view и шаблон index.html для проверки 
   корректности работы нашего проекта
+- доделано приложение userapp, добавлена возможность создать пользователя, залогиниться просмотреть 	его профиль с историей просмотра ингредиентов, разлогиниться
+- добавлен поиск по ингредиентам
+- просмотр деталей ингредиента теперь возможен только если есть активный залогиненный пользователь
 
 Как запустить проект:
 
@@ -29,12 +32,14 @@ of the world's manufacturers of cosmetics for the possible allergy reactions
 or other harm to health.
 
 
-- a clean environment has been created and a Django project has been created
-- the mainapp application has been created
-- models of ingredients for the database have been declared and described
-- migrations have been performed and applied
-- the index_view function and template have been announced index.html for 
-   evaluation of the work of our project
+ - Created a clean environment and a Django project.
+ - Created a mainapp application.
+ - Declared and described models for ingredients in the database.
+ - Executed and applied migrations.
+ - Declared the index_view function and the index.html template to verify the correctness of our 	project.
+ - Completed the userapp application, added the ability to create users, log in, view their profile 	with a viewing history of ingredients, and log out.
+ - Added a search feature for ingredients.
+ - Viewing ingredient details is now possible only if there is an active logged-in user.
 
 How lo launch project
 

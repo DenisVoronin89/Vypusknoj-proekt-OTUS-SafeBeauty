@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d16e31fa-6396-44f4-9919-244fa089b3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/safe_beauty/mainapp/templates/mainapp/ingredient_search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/safe_beauty/userapp/templates/userapp/user_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/safe_beauty/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/safe_beauty/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/safe_beauty/mainapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/safe_beauty/mainapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/safe_beauty/safe_beauty/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/safe_beauty/safe_beauty/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/safe_beauty/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/safe_beauty/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/safe_beauty/userapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/safe_beauty/userapp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/safe_beauty/userapp/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/safe_beauty/userapp/templates/userapp/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/safe_beauty/userapp/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/safe_beauty/userapp/templates/userapp/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/safe_beauty/userapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/safe_beauty/userapp/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="d16e31fa-6396-44f4-9919-244fa089b3a0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693199119637</updated>
-      <workItem from="1693199212792" duration="4691000" />
+      <workItem from="1693199212792" duration="5059000" />
     </task>
     <servers />
   </component>
